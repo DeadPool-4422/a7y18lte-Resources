@@ -11,7 +11,7 @@ For optimal performance and compatibility, please ensure your device is updated 
 We have a new kernel that addresses several issues such as:
 
 - Non-functional MTP in GSI
-- Camera and flash not working
+- Camera and flash not working in Android 11 or newer versions
 
 The new kernel file is named `repack-boot.7z`.
 
