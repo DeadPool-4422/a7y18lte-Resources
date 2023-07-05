@@ -1,6 +1,6 @@
 # a7y18lte-Resources
 
-Welcome to the a7y18lte-Resources repository! Here, you'll find resources that are designed to enhance and customize your device experience. 
+Welcome to the a7y18lte-Resources repository! Here, you'll find resources to help enhance and customize your device experience. 
 
 ## Getting Started 
 
@@ -8,16 +8,16 @@ For optimal performance and compatibility, please ensure your device is updated 
 
 ## Kernel 
 
-We have a new kernel that addresses several issues such as:
+We have a new kernel that addresses several issues, including:
 
 - Non-functional MTP in GSI
-- Camera and flash not working in Android 11 or newer versions
+- Camera and flash not working
 
 The new kernel file is named `repack-boot.7z`.
 
 ### Kernel Installation
 
-To install the new kernel, follow the steps below:
+To install the new kernel, follow these steps:
 
 1. Download the `repack-boot.7z` file.
 2. Extract the .img file inside the .7z file.
@@ -25,12 +25,14 @@ To install the new kernel, follow the steps below:
 
 Please remember to backup your data before proceeding with the kernel installation.
 
+For future references and if needed, the original kernel of the OneUI 2.0 is also included in this repository, named `stock-boot.7z`. The installation process is the same as `repack-boot.7z`.
+
 ## Fix for Brightness Slider in Android 11+ GSI
 
 If the Brightness Slider isn't working as expected in Android 11 or newer versions, follow these steps:
 
-1. Navigate to `Settings` > `PHH Treble Settings` > `Misc Features`
-2. Scroll down to the **Backlight** section
+1. Navigate to `Settings` > `PHH Treble Settings` > `Misc Features`.
+2. Scroll down to the **Backlight** section.
 3. Enable the following settings:
     - Use linear screen brightness slider
     - Force alternative backlight scale
@@ -55,4 +57,4 @@ This repository includes both TWRP and PBRP recovery resources. They are compati
 
 You can download the recoveries [here](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
 
-Always remember to back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
+Remember to always back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
