@@ -21,7 +21,14 @@ just download the file and flash it in recovery and don't forget to flash the dm
 
 as the name suggests the rom has no gapps included 
 you can flash any of your preferred GAPPS 
+
 but i'd recommend downloading from 
 https://opengapps.org/
 
 Recommended - ARM64 --> 10.0 --> Pico
+
+
+#Recovery 
+You can find both TWRP and PBRP recovery compatible with the latest firmware of the device and definitely will not give you the Black lines like Earlier ones below
+
+https://github.com/DeadPool-4422/Action-TWRP-Builder/releases
