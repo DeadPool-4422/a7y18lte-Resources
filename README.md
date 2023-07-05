@@ -1,51 +1,52 @@
 # a7y18lte-Resources
 
-Welcome to the a7y18lte-Resources repository! Here, you'll find resources to help enhance and customize your device experience. 
+## Disclaimer
+
+By using the resources provided in this repository, you understand and accept that I am not responsible for any damages or issues that may arise from the use of these resources. Moreover, you also understand that using these advanced resources may void your device's warranty.
+
+## Introduction
+
+Welcome to the a7y18lte-Resources repository! Here you will find resources that are designed to enhance and customize your device experience. 
 
 ## Getting Started 
 
-For optimal performance and compatibility, please ensure your device is updated to the latest firmware.
+To ensure optimal performance and compatibility, update your device to the latest firmware.
+
 
 ## Kernel 
 
-We have a new kernel that addresses several issues, including:
+We provide a new kernel file named `repack-boot.7z` which addresses several issues, including:
 
 - Non-functional MTP in GSI
-- Camera and flash not working
-
-The new kernel file is named `repack-boot.7z`.
+- Non-working camera and flash
 
 ### Kernel Installation
 
-To install the new kernel, follow these steps:
+To install the new kernel, perform the following steps:
 
-1. Download the `repack-boot.7z` file.
+1. Download `repack-boot.7z`.
 2. Extract the .img file inside the .7z file.
 3. Flash the extracted .img file in the boot partition of your device using recovery.
 
-Please remember to backup your data before proceeding with the kernel installation.
+Please remember to back up your data before proceeding with the kernel installation.
 
-For future references and if needed, the original kernel of the OneUI 2.0 is also included in this repository, named `stock-boot.7z`. The installation process is the same as `repack-boot.7z`.
+### Original Kernel
 
-## Fix for Brightness Slider in Android 11+ GSI
-
-If the Brightness Slider isn't working as expected in Android 11 or newer versions, follow these steps:
-
-1. Navigate to `Settings` > `PHH Treble Settings` > `Misc Features`.
-2. Scroll down to the **Backlight** section.
-3. Enable the following settings:
-    - Use linear screen brightness slider
-    - Force alternative backlight scale
-    - Allows setting brightness to the lowest possible 
+The original kernel of the OneUI 2.0 is also included in this repository for future reference and use, if needed. It's named `stock-boot.7z` and can be installed following the same steps as for `repack-boot.7z`.
 
 ## Stock ROM 
 
-In this repository, you'll find the de-googled version of the Android 10 Samsung OneUI 2.0 stock ROM for the device, named `Stockrom-Degoogled.zip`.
+This repository includes a de-googled version of the Android 10 Samsung OneUI 2.0 stock ROM for the device, named `Stockrom-Degoogled.zip`.
 
 ### Stock ROM Installation
-To install, download the `Stockrom-Degoogled.zip` file and flash it in recovery. After that, ensure to flash the dm-verity to prevent the device from going into download mode.
 
-**Note:** This ROM doesn't include Google Apps (GApps) by default. However, you can flash any GApps package of your choice if required.
+To install the Stock ROM, perform the following steps:
+
+1. Download `Stockrom-Degoogled.zip`.
+2. Flash it in recovery.
+3. After that, ensure to flash the dm-verity to prevent the device from going into download mode.
+
+**Note:** This ROM does not include Google Apps (GApps) by default. You can flash any GApps package of your choice if required.
 
 We recommend using Open GApps, which can be downloaded from [here](https://opengapps.org/). 
 
@@ -53,8 +54,37 @@ We recommend using Open GApps, which can be downloaded from [here](https://openg
 
 ## Recovery 
 
-This repository includes both TWRP and PBRP recovery resources. They are compatible with the latest firmware of your device and won't result in the black line issues seen in earlier versions.
+This repository includes TWRP and PBRP recovery resources that are compatible with the latest firmware of your device and prevent the black line issues encountered with earlier versions.
 
-You can download the recoveries [here](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
+You can download the recoveries from [this link](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
 
+Always back up your data before conducting any recovery operations.
+
+## Recommended GSIs
+
+We recommend the following GSIs to enhance your device experience:
+
+- [TrebleDroid](https://github.com/TrebleDroid/treble_experimentations): Use `system-arm64-ab-vndklite-vanilla.img.xz`.
+- [/e/ OS GSI](https://doc.e.foundation/support-topics/install-GSI): Use `system-arm64-ab.img.xz`.
+
+## Miscellaneous
+
+### Fix for Brightness Slider in Android 11+ GSI
+
+If the Brightness Slider is not working as expected in Android 11 or newer versions, perform the following steps:
+
+1. Navigate to `Settings` > `PHH Treble Settings` > `Misc Features`.
+2. Scroll down to the **Backlight** section.
+3. Enable the following settings:
+   - Use linear screen brightness slider
+   - Force alternative backlight scale
+   - Allows setting brightness to the lowest possible
+
+# Caution #
 Remember to always back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
+
+--------------------------------------------------------------------------------
+|                                                                              |
+|                     Enjoy your enhanced device experience!                   |
+|                                                                              |
+--------------------------------------------------------------------------------
