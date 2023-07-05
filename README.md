@@ -14,10 +14,12 @@ This repository's resources are compatible with a variety of devices owing to th
 
 - SM-A750F / Galaxy A7
 - SM-A750FN / Galaxy A7 (2018)
-- SM-A750G / Galaxy A7 0
+- SM-A750G / Galaxy A7
 - SM-A750GN / Galaxy A7
 - SM-A750N / Galaxy A7
 - SM-A750C / Galaxy A7
+
+Please note that these different model names represent the various regions in which the device was launched, and not differences in software resources.
 
 To ensure optimal performance and compatibility, update your device to the latest firmware. You can download the latest firmware from [here](https://samfw.com/).
 
