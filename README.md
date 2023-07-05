@@ -1,34 +1,39 @@
 # a7y18lte-Resources
 
-Extract the repack-boot.7z and flash it in the boot partition
+Welcome to the a7y18lte-Resources repository! Here, you'll find resources to help customize your device experience. 
 
+## Getting Started 
 
-# Brightness Slider not working properly in A11+ GSI
+To begin, extract the `repack-boot.7z` file and flash it in the boot partition of your device.
 
-Fix :
-Settings > PHH Treble Settings > Misc Features 
+## Fix for Brightness Slider in Android 11+ GSI
 
-scroll down and find the **Backlight** section
+If the Brightness Slider is not working as expected, please follow the steps below:
 
-Turn on :
-- Use linear screen brightness slider 
-- Force alternative backlight scale
-- Allows setting brightness to the lowest possible 
+1. Navigate to `Settings` > `PHH Treble Settings` > `Misc Features`
+2. Scroll down to the **Backlight** section
+3. Enable the following settings:
+    - Use linear screen brightness slider
+    - Force alternative backlight scale
+    - Allows setting brightness to the lowest possible 
 
-# Stock rom
-i have also included the Android 10 samsung OneUI 2.0 of the device in the repo with the name **Stockrom-Degoogled.zip** 
-just download the file and flash it in recovery and don't forget to flash the dm-verity afterwards in case device goes in download mode
+## Stock ROM 
 
-as the name suggests the rom has no gapps included 
-you can flash any of your preferred GAPPS 
+You'll find the Android 10 Samsung OneUI 2.0 stock ROM for the device in this repository. The file is named `Stockrom-Degoogled.zip`.
 
-but i'd recommend downloading from 
-https://opengapps.org/
+### Installation
+To install, download the file and flash it in recovery. Don't forget to flash the dm-verity afterwards to prevent the device from going into download mode.
 
-Recommended - ARM64 --> 10.0 --> Pico
+**Note:** This ROM doesn't include Google Apps (GApps) by default. However, you can flash any GApps of your choice. 
 
+We recommend using Open GApps, which can be downloaded from [here](https://opengapps.org/). 
 
-#Recovery 
-You can find both TWRP and PBRP recovery compatible with the latest firmware of the device and definitely will not give you the Black lines like Earlier ones below
+**Recommended GApps Configuration:** ARM64 --> 10.0 --> Pico
 
-https://github.com/DeadPool-4422/Action-TWRP-Builder/releases
+## Recovery 
+
+We have included both TWRP and PBRP recovery resources compatible with the latest firmware of the device. These resources won't result in the black line issue experienced in earlier versions.
+
+You can find the recoveries [here](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
+
+Remember to always back up your data before performing recovery operations. Happy modding!
