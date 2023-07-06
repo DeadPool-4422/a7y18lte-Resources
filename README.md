@@ -119,10 +119,65 @@ You can list the block devices present on your system by running the command `ls
 ```bash
 total 0
 drwxr-xr-x  4 root root     1220 2023-06-25 18:19 .
-...
+drwxr-xr-x 10 root root     3320 2023-06-25 18:19 ..
+drwxr-xr-x  2 root root      600 2023-06-25 18:19 by-name
+brw-------  1 root root   7,   0 2023-06-25 18:19 loop0
+brw-------  1 root root   7,   1 2023-06-25 18:19 loop1
+brw-------  1 root root   7,   2 2023-06-25 18:19 loop2
+brw-------  1 root root   7,   3 2023-06-25 18:19 loop3
+brw-------  1 root root   7,   4 2023-06-25 18:19 loop4
+brw-------  1 root root   7,   5 2023-06-25 18:19 loop5
+brw-------  1 root root   7,   6 2023-06-25 18:19 loop6
+brw-------  1 root root   7,   7 2023-06-25 18:19 loop7
 brw-------  1 root root 179,   0 2023-06-25 18:19 mmcblk0
 brw-------  1 root root 179,   8 2023-06-25 18:19 mmcblk0boot0
-...
+brw-------  1 root root 179,  16 2023-06-25 18:19 mmcblk0boot1
+brw-------  1 root root 179,   1 2023-06-25 18:19 mmcblk0p1
+brw-------  1 root root 259,   2 2023-06-25 18:19 mmcblk0p10
+brw-------  1 root root 259,   3 2023-06-25 18:19 mmcblk0p11
+brw-------  1 root root 259,   4 2023-06-25 18:19 mmcblk0p12
+brw-------  1 root root 259,   5 2023-06-25 18:19 mmcblk0p13
+brw-------  1 root root 259,   6 2023-06-25 18:19 mmcblk0p14
+brw-------  1 root root 259,   7 2023-06-25 18:19 mmcblk0p15
+brw-------  1 root root 259,   8 2023-06-25 18:19 mmcblk0p16
+brw-------  1 root root 259,   9 2023-06-25 18:19 mmcblk0p17
+brw-------  1 root root 259,  10 2023-06-25 18:19 mmcblk0p18
+brw-------  1 root root 259,  11 2023-06-25 18:19 mmcblk0p19
+brw-------  1 root root 179,   2 2023-06-25 18:19 mmcblk0p2
+brw-------  1 root root 259,  12 2023-06-25 18:20 mmcblk0p20
+brw-------  1 root root 259,  13 2023-06-25 18:19 mmcblk0p21
+brw-------  1 root root 259,  14 2023-06-25 18:19 mmcblk0p22
+brw-------  1 root root 259,  15 2023-06-25 18:19 mmcblk0p23
+brw-------  1 root root 259,  16 2023-06-25 18:19 mmcblk0p24
+brw-------  1 root root 259,  17 2023-06-25 18:19 mmcblk0p25
+brw-------  1 root root 259,  18 2023-06-25 18:19 mmcblk0p26
+brw-------  1 root root 259,  19 2023-06-25 18:19 mmcblk0p27
+brw-------  1 root root 259,  20 2023-06-25 18:19 mmcblk0p28
+brw-------  1 root root 179,   3 2023-06-25 18:19 mmcblk0p3
+brw-------  1 root root 179,   4 2023-06-25 18:19 mmcblk0p4
+brw-------  1 root root 179,   5 2023-06-25 18:19 mmcblk0p5
+brw-------  1 root root 179,   6 2023-06-25 18:19 mmcblk0p6
+brw-------  1 root root 179,   7 2023-06-25 18:19 mmcblk0p7
+brw-------  1 root root 259,   0 2023-06-25 18:19 mmcblk0p8
+brw-------  1 root root 259,   1 2023-06-25 18:19 mmcblk0p9
+brw-------  1 root root 179,  24 2023-06-25 18:19 mmcblk0rpmb
+drwxr-xr-x  3 root root       60 2023-06-25 18:19 platform
+brw-------  1 root root   1,   0 2023-06-25 18:19 ram0
+brw-------  1 root root   1,   1 2023-06-25 18:19 ram1
+brw-------  1 root root   1,  10 2023-06-25 18:19 ram10
+brw-------  1 root root   1,  11 2023-06-25 18:19 ram11
+brw-------  1 root root   1,  12 2023-06-25 18:19 ram12
+brw-------  1 root root   1,  13 2023-06-25 18:19 ram13
+brw-------  1 root root   1,  14 2023-06-25 18:19 ram14
+brw-------  1 root root   1,  15 2023-06-25 18:19 ram15
+brw-------  1 root root   1,   2 2023-06-25 18:19 ram2
+brw-------  1 root root   1,   3 2023-06-25 18:19 ram3
+brw-------  1 root root   1,   4 2023-06-25 18:19 ram4
+brw-------  1 root root   1,   5 2023-06-25 18:19 ram5
+brw-------  1 root root   1,   6 2023-06-25 18:19 ram6
+brw-------  1 root root   1,   7 2023-06-25 18:19 ram7
+brw-------  1 root root   1,   8 2023-06-25 18:19 ram8
+brw-------  1 root root   1,   9 2023-06-25 18:19 ram9
 brw-------  1 root root 253,   0 2023-06-25 18:19 vnswap0
 ```
 Each line represents a block device. The series of characters at the start represent the permissions, the first number is the major number, and the second is the minor number.
