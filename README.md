@@ -327,9 +327,11 @@ To exit the `parted` interface, simply type 'quit' at the `(parted)` prompt.
 
 After exiting the `parted` interface, you may want to utilize built-in commands for formatting partitions into different file formats. This is particularly useful if you're experiencing specific errors during recovery, such as the "Cannot mount /preload" error.
 
-## Resolving Cannot Mount Preload Error in Recovery
+## Resolving "Cannot mount /preload" Error in Recovery
 
-The following steps are designed to address this error.
+This section offers steps to resolve the "Cannot mount /preload" error often encountered during recovery. 
+
+🚨 **Important: The following steps involve partition formatting, which can cause data loss. It's crucial to back up your data before performing these operations. Proceed with extreme caution.** 🚨
 
 **Formatting Partitions:**
 
@@ -345,7 +347,7 @@ The following steps are designed to address this error.
     mke2fs -t ext4 /dev/block/bootdevice/by-name/preload
     ```
 
-Replace `/dev/block/bootdevice/by-name/preload` with the path to the partition you want to format.
+Should you encounter a similar error with a different partition, you can use the same process. However, replace `/dev/block/bootdevice/by-name/preload` with the path corresponding to the partition causing the error.
 
-**Note:** These commands can lead to data loss. Always ensure to take a backup of your data before performing these operations, and only proceed if you are prepared for potential data loss. The `/dev/block/bootdevice/by-name/preload` path used in this example is specific to the "Cannot mount /preload" error. If you're looking to format a different partition, replace this path with the appropriate partition path for your device.
+**Note:** Again, these operations can lead to data loss. Please ensure all valuable data is backed up before proceeding. The `/dev/block/bootdevice/by-name/preload` path used in this example is specific to the "Cannot mount /preload" error. If you're experiencing issues with a different partition, replace this path with the relevant partition path for your device.
 
