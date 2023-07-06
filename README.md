@@ -100,19 +100,23 @@ If you encounter the "Cannot mount /preload" error during recovery, please refer
 
 
 # Caution #
+
 Remember to always back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
 
---------------------------------------------------------------------------------
+---
+
 |                                                                              |
-|                     Enjoy your enhanced device experience!                   |
+|:----------------------------------------------------------------------------:|
+|               ⚡️ **Enjoy your enhanced device experience!** ⚡️             |
 |                                                                              |
---------------------------------------------------------------------------------
 
+---
 
+⚠️🔩 **Advanced Section** 🔩⚠️
 
+This section is for advanced users and involves procedures that carry the risk of data loss or damage to your device. Always proceed with caution and ensure you have a reliable backup of your data. 
 
-## Advanced Section
-This advanced section provides some more in-depth instructions for getting information about your device's partitioning and how to use `parted` utility to inspect and modify those partitions.
+Here, we provide in-depth instructions for obtaining information about your device's partitioning and using the `parted` utility to inspect and modify those partitions. Proceed only if you are comfortable with advanced operations and have adequately backed up your data.
 
 ### Checking Device Block Information
 You can list the block devices present on your system by running the command `ls -al /dev/block/` in the terminal. This will give you detailed information about each block device, including its permissions, ownership, and the date it was last modified.
