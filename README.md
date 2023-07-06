@@ -96,7 +96,7 @@ If the Brightness Slider is not working as expected in Android 11 or newer versi
 
 ### "Cannot mount /preload" Error
 
-If you encounter the "Cannot mount /preload" error during recovery, please refer to the [Resolving Cannot Mount Preload Error in Recovery](#resolving-cannot-mount-preload-error-in-recovery) section for detailed steps on how to rectify this issue. Please proceed with caution as these steps involve partition formatting which could lead to data loss. Always ensure to take a backup of your data before performing these operations.
+If you encounter the "Cannot mount /preload" error in recovery, please refer to the [Resolving Cannot Mount Preload Error in Recovery](#resolving-cannot-mount-preload-error-in-recovery) section for detailed steps on how to rectify this issue. Please proceed with caution as these steps involve partition formatting which could lead to data loss. Always ensure to take a backup of your data before performing these operations.
 
 
 # Caution #
@@ -107,7 +107,7 @@ Remember to always back up your data before conducting any recovery operations. 
 
 |                                                                              |
 |:----------------------------------------------------------------------------:|
-|               ⚡️ **Enjoy your enhanced device experience!** ⚡️             |
+|               ⚡️ **Enjoy your enhanced device experience!** ⚡️              |
 |                                                                              |
 
 ---
