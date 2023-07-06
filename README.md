@@ -22,13 +22,15 @@ This repository's resources are compatible with a variety of devices owing to th
 Please note that these different model names represent the various regions in which the device was launched, and not differences in software resources.
 
 To ensure optimal performance and compatibility, update your device to the latest firmware. You can download the latest firmware from [here](https://samfw.com/).
-
 ## Kernel 
 
 We provide a new kernel file named `repack-boot.7z` which addresses several issues, including:
 
 - Non-functional MTP in GSI
 - Non-working camera and flash
+- Better GSI Compatibility
+
+This kernel was built from the source tree available at this [repository](https://github.com/AKSharma87/kernel_samsung_a7y18lte).
 
 ### Kernel Installation
 
@@ -67,6 +69,8 @@ We recommend using Open GApps, which can be downloaded from [here](https://openg
 This repository includes TWRP and PBRP recovery resources that are compatible with the latest firmware of your device and prevent the black line issues encountered with earlier versions.
 
 You can download the recoveries from [this link](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
+
+These recoveries were built from the source tree available at this [repository](https://github.com/AKSharma87/TWRP_device_samsung_a7y18lte).
 
 Always back up your data before conducting any recovery operations.
 
