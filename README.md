@@ -94,6 +94,11 @@ If the Brightness Slider is not working as expected in Android 11 or newer versi
    - Force alternative backlight scale
    - Allows setting brightness to the lowest possible
 
+### "Cannot mount /preload" Error
+
+If you encounter the "Cannot mount /preload" error during recovery, please refer to the [Resolving Cannot Mount Preload Error in Recovery](#resolving-cannot-mount-preload-error-in-recovery) section for detailed steps on how to rectify this issue. Please proceed with caution as these steps involve partition formatting which could lead to data loss. Always ensure to take a backup of your data before performing these operations.
+
+
 # Caution #
 Remember to always back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
 
@@ -320,23 +325,27 @@ Should you need additional guidance or accidentally enter an incorrect command, 
 
 To exit the `parted` interface, simply type 'quit' at the `(parted)` prompt.
 
+After exiting the `parted` interface, you may want to utilize built-in commands for formatting partitions into different file formats. This is particularly useful if you're experiencing specific errors during recovery, such as the "Cannot mount /preload" error.
 
-After exiting the `parted` interface, you may want to utilize built-in commands for formatting partitions into different file formats. This is especially helpful if you're encountering errors like "Cannot mount /preload" in recovery. The commands shown below are intended to address this particular error, but you can adjust the partition path as needed for your circumstances.
+## Resolving Cannot Mount Preload Error in Recovery
+
+The following steps are designed to address this error.
 
 **Formatting Partitions:**
 
-Firstly, unmount the problematic partition with the `umount` command:
+1. Unmount the problematic partition using the `umount` command:
 
-```bash
-umount /dev/block/bootdevice/by-name/preload
-```
+    ```bash
+    umount /dev/block/bootdevice/by-name/preload
+    ```
 
-Next, format the partition to the `ext4` file system using the `mke2fs` command:
+2. Format the partition to the `ext4` file system using the `mke2fs` command:
 
-```bash
-mke2fs -t ext4 /dev/block/bootdevice/by-name/preload
-```
+    ```bash
+    mke2fs -t ext4 /dev/block/bootdevice/by-name/preload
+    ```
 
 Replace `/dev/block/bootdevice/by-name/preload` with the path to the partition you want to format.
 
-**Note:** These commands carry the potential to erase data. Always remember to backup your data prior to executing these operations, and only perform these steps if you're comfortable with potential data loss. The `/dev/block/bootdevice/by-name/preload` path used in this example is specific to the "Cannot mount /preload" error. If you're looking to format a different partition, replace this path with the appropriate partition path for your device.
+**Note:** These commands can lead to data loss. Always ensure to take a backup of your data before performing these operations, and only proceed if you are prepared for potential data loss. The `/dev/block/bootdevice/by-name/preload` path used in this example is specific to the "Cannot mount /preload" error. If you're looking to format a different partition, replace this path with the appropriate partition path for your device.
+
