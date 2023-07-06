@@ -106,8 +106,6 @@ Remember to always back up your data before conducting any recovery operations. 
 
 
 
-Sure, I understand. Here's a cleaned-up and advanced section of README file containing those details.
-
 ## Advanced Section
 This advanced section provides some more in-depth instructions for getting information about your device's partitioning and how to use `parted` utility to inspect and modify those partitions.
 
