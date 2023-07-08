@@ -52,7 +52,7 @@ To enable USB debugging and OEM unlocking:
     ```
     Refer to the [Android Developers guide](http://developer.android.com/tools/device.html) for more information. 
 3. Unload the `cdc_acm` module by running `sudo rmmod cdc_acm` in the terminal.
-4. Connect your Samsung A7 2018 device to your Linux machine.
+4. Connect your Samsung A7 2018 device to your Linux machine while the device is in Download Mode.
 5. Run `odin4 -a <PATH_TO_TWRP_FILE>` in the terminal, replacing `<PATH_TO_TWRP_FILE>` with the path to your downloaded TWRP file. This begins the flashing process.
 
 ### Step 4: Boot into Custom Recovery
