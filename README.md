@@ -85,6 +85,7 @@ We recommend the following GSIs to enhance your device experience:
 
 - [TrebleDroid](https://github.com/TrebleDroid/treble_experimentations): Use `system-arm64-ab-vndklite-vanilla.img.xz`.
 - [/e/ OS GSI](https://doc.e.foundation/support-topics/install-GSI): Use `system-arm64-ab.img.xz`.
+- [LineageOS GSI](https://sourceforge.net/projects/andyyan-gsi/files/): Use the latest version compatible with your device.
 
 ## Miscellaneous
 
