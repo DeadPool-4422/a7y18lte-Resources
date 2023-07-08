@@ -22,6 +22,7 @@ This repository's resources are compatible with a variety of devices owing to th
 Please note that these different model names represent the various regions in which the device was launched, and not differences in software resources.
 
 To ensure optimal performance and compatibility, update your device to the latest firmware. You can download the latest firmware from [here](https://samfw.com/).
+
 ## Kernel 
 
 We provide a new kernel file named `repack-boot.7z` which addresses several issues, including:
@@ -72,6 +73,10 @@ You can download the recoveries from [this link](https://github.com/DeadPool-442
 
 These recoveries were built from the source tree available at this [repository](https://github.com/AKSharma87/TWRP_device_samsung_a7y18lte).
 
+### Recovery Installation
+
+To install the custom recovery, follow the instructions detailed in this [guide](https://github.com/DeadPool-4422/a7y18lte-Resources/blob/main/install-recovery.md).
+
 Always back up your data before conducting any recovery operations.
 
 ## Recommended GSIs
@@ -98,8 +103,7 @@ If the Brightness Slider is not working as expected in Android 11 or newer versi
 
 If you encounter the "Cannot mount /preload" error in recovery, please refer to the [Resolving Cannot Mount Preload Error in Recovery](#resolving-cannot-mount-preload-error-in-recovery) section for detailed steps on how to rectify this issue. Please proceed with caution as these steps involve partition formatting which could lead to data loss. Always ensure to take a backup of your data before performing these operations.
 
-
-# Caution #
+# Caution 
 
 Remember to always back up your data before conducting any recovery operations. Enjoy your enhanced device experience!
 
