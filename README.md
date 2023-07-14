@@ -23,29 +23,25 @@ Please note that these different model names represent the various regions in wh
 
 To ensure optimal performance and compatibility, update your device to the latest firmware. You can download the latest firmware from [here](https://samfw.com/).
 
-## Kernel 
-
-We provide a new kernel file named `repack-boot.7z` which addresses several issues, including:
-
-- Non-functional MTP in GSI
-- Non-working camera and flash
-- Better GSI Compatibility
-
-This kernel was built from the source tree available at this [repository](https://github.com/AKSharma87/kernel_samsung_a7y18lte).
-
 ### Kernel Installation
 
 To install the new kernel, perform the following steps:
 
-1. Download `repack-boot.7z`.
-2. Extract the .img file inside the .7z file.
-3. Flash the extracted .img file in the boot partition of your device using recovery.
+1. Navigate to the [Releases](https://github.com/DeadPool-4422/kernel_samsung_a7y18lte/releases) page of the repository.
+2. Download the `boot.img` file from the most recent release.
+3. Flash the downloaded `boot.img` file in the boot partition of your device using recovery.
 
 Please remember to back up your data before proceeding with the kernel installation.
 
 ### Original Kernel
 
-The original kernel of the OneUI 2.0 is also included in this repository for future reference and use, if needed. It's named `stock-boot.7z` and can be installed following the same steps as for `repack-boot.7z`.
+The original kernel of the OneUI 2.0 is also included in this repository for future reference and use, if needed. It's named `stock-boot.7z`. Here are the steps to install it:
+
+1. Download `stock-boot.7z`.
+2. Extract the .img file inside the .7z file.
+3. Flash the extracted .img file in the boot partition of your device using recovery.
+
+Please remember to back up your data before proceeding with the kernel installation.
 
 ## Stock ROM 
 
