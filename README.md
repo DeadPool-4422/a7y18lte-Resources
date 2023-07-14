@@ -38,8 +38,8 @@ Please remember to back up your data before proceeding with the kernel installat
 The original kernel of the OneUI 2.0 is also included in this repository for future reference and use, if needed. It's named `stock-boot.7z`. Here are the steps to install it:
 
 1. Download `stock-boot.7z`.
-2. Extract the .img file inside the .7z file.
-3. Flash the extracted .img file in the boot partition of your device using recovery.
+2. Extract the boot.img file inside the .7z file.
+3. Flash the extracted boot.img file in the boot partition of your device using recovery.
 
 Please remember to back up your data before proceeding with the kernel installation.
 
