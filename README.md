@@ -106,10 +106,10 @@ Remember to always back up your data before conducting any recovery operations. 
 
 ---
 
-|                                                                         |
-|:-----------------------------------------------------------------------:|
-|               ⚡️ **Enjoy your enhanced device experience** ⚡️          |
-|                                                                         |
+|                                                        |
+|:------------------------------------------------------:|
+|    ⚡️ **Enjoy your enhanced device experience** ⚡️    |
+|                                                        |
 
 ---
 
