@@ -83,6 +83,32 @@ We recommend the following GSIs to enhance your device experience:
 - [/e/ OS GSI](https://doc.e.foundation/support-topics/install-GSI): Use `system-arm64-ab.img.xz`.
 - [LineageOS GSI](https://sourceforge.net/projects/andyyan-gsi/files/): Use the `arm64-b??`
 
+
+## Upgrading to the Latest Magisk Version on `a7y18lte`
+
+Due to specific requirements for the `a7y18lte` device, direct flashing of the latest Magisk versions from recovery is not supported. Instead, follow this step-by-step guide to upgrade from version 21.4:
+
+### 1. Flash Magisk 21.4 via Recovery
+Start by flashing Magisk version 21.4 through your recovery. Once this is done, boot your device normally.
+
+### 2. Download & Install the Latest Magisk App
+After booting, download and install the [Magisk v24.1 APK](https://github.com/topjohnwu/Magisk/releases/download/v24.1/Magisk-v24.1.apk). This app will facilitate the upgrade to the latest Magisk version.
+
+### 3. Upgrade Magisk Through the App
+- Launch the Magisk app you just installed.
+- Tap on the "Install" button.
+- Choose the "Direct Install (Recommended)" option.
+- Allow the process to complete, as the app will download and install the latest Magisk version.
+
+### 4. Reboot Your Device
+After the installation completes, tap on the "Reboot" button.
+
+**Congratulations! 🎉**
+
+Your `a7y18lte` device is now running the latest version of Magisk!
+
+> **Note:** Always ensure you have adequate backups before making system-level modifications to your device. Enjoy the latest Magisk features on your `a7y18lte`!
+
 ## Miscellaneous
 
 ### Fix for Brightness Slider in Android 11+ GSI
