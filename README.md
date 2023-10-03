@@ -121,6 +121,7 @@ If the Brightness Slider is not working as expected in Android 11 or newer versi
    - Use linear screen brightness slider
    - Force alternative backlight scale
    - Allows setting brightness to the lowest possible
+4. Reboot the Device
 
 ### "Cannot mount /preload" Error
 
