@@ -231,8 +231,6 @@ You can download `parted` and other partition tools from the repo itself. Look f
 cd parted_gdisk_fdisk_mkfs.ext4-AARCH64
 ```
 
-Sure, here is the refined version of the section you provided:
-
 2. Transfer `parted` to your device using ADB:
 
 ```bash
