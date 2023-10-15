@@ -67,6 +67,8 @@ This repository includes TWRP and PBRP recovery resources that are compatible wi
 
 You can download the recoveries from [this link](https://github.com/DeadPool-4422/Action-TWRP-Builder/releases).
 
+Note : - The zips seem to be failing to install use the recovery.img instead to install the recoveries instead
+
 These recoveries were built from the source tree available at this [repository](https://github.com/AKSharma87/TWRP_device_samsung_a7y18lte).
 
 ### Recovery Installation
