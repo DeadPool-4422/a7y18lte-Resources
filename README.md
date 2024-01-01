@@ -77,14 +77,40 @@ To install the custom recovery, follow the instructions detailed in this [guide]
 
 Always back up your data before conducting any recovery operations.
 
-## Recommended GSIs
+## Recommended GSIs and Installation Guide for A7 2018 (a7y18lte)
 
-We recommend the following GSIs to enhance your device experience:
+Enhance your device experience with our recommended Generic System Images (GSIs).
 
-- [TrebleDroid](https://github.com/TrebleDroid/treble_experimentations): Use `system-arm64-ab-vndklite-vanilla.img.xz`.
-- [/e/ OS GSI](https://doc.e.foundation/support-topics/install-GSI): Use `system-arm64-ab.img.xz`.
-- [LineageOS GSI](https://sourceforge.net/projects/andyyan-gsi/files/): Use the `arm64-b??`
+### Recommended GSIs:
 
+1. **TrebleDroid**: A versatile GSI for various devices.
+   - **Download**: [TrebleDroid Repository](https://github.com/TrebleDroid/treble_experimentations)
+   - **Image File**: `system-arm64-ab-vndklite-vanilla.img.xz`
+
+2. **/e/ OS GSI**: Privacy-centric Android OS.
+   - **Download**: [/e/ OS GSI Documentation](https://doc.e.foundation/support-topics/install-GSI)
+   - **Image File**: `system-arm64-ab.img.xz`
+
+3. **LineageOS GSI**: A popular open-source operating system.
+   - **Download**: [LineageOS GSI SourceForge](https://sourceforge.net/projects/andyyan-gsi/files/)
+   - **Image File**: Look for `arm64-b??` files
+
+### Pre-Installation Requirement:
+
+Ensure that you have a stock ROM flashed on your device. If not, download and flash the provided [stock-Degoogled ROM](https://github.com/DeadPool-4422/a7y18lte-Resources/blob/main/stock-Degoogled.zip) from this repository.
+
+### Entering Recovery Mode:
+
+- **If the device is turned off**: Hold the Power and Volume Up buttons simultaneously.
+- **If the device is turned on**: Hold the Power and Volume Down buttons. As soon as the screen goes dark, switch to holding the Power and Volume Up buttons.
+
+### Installation Steps:
+
+1. **Flash Stock ROM**: If you don't already have a stock ROM, flash the provided `stock-Degoogled.zip` first.
+
+2. **Extract GSI Image**: GSI images are often compressed (`.xz` format). Extract the `.img` file from the downloaded GSI package.
+
+3. **Flash GSI**: Use the recovery mode to flash the extracted `.img` file. When prompted, select the 'system' partition for installation.
 
 ## Upgrading to the Latest Magisk Version on `a7y18lte`
 
