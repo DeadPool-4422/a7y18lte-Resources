@@ -91,7 +91,7 @@ We recommend the following GSIs to enhance your device experience:
 Due to specific requirements for the `a7y18lte` device, direct flashing of the latest Magisk versions from recovery is not supported , instead you'll get a bootloop unless you follow the below steps to get the latest magisk version (26.1 while writing) working . Follow this step-by-step guide to upgrade from version 21.4:
 
 ### 1. Flash Magisk 21.4 via Recovery
-Start by flashing Magisk version 21.4 through your recovery. Once this is done, boot your device normally.
+Start by flashing Magisk version 21.4 through your recovery. You can get the  Magisk 21.4 from [this link](https://github.com/topjohnwu/Magisk/releases/download/v21.4/Magisk-v21.4.zip). Note - rename apk to zip if it doesn't shows up in recovery. Once this is done, boot your device normally.
 
 ### 2. Download & Install the Latest Magisk App
 After booting, download and install the [Magisk APK](https://github.com/topjohnwu/Magisk/releases). This app will facilitate the upgrade to the latest Magisk version.
