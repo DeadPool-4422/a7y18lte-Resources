@@ -51,7 +51,7 @@ This repository includes a de-googled version of the Android 10 Samsung OneUI 2.
 
 To install the Stock ROM, perform the following steps:
 
-1. Download `Stockrom-Degoogled.zip`.
+1. Download `Stockrom-Degoogled.zip` from [here](https://1drv.ms/u/c/ec851374c4d3d145/EV6SIGDjA_RCpDDCVTEshSwB_WL5TNCf1iWpMkXTH3b5_A?e=iVrqD2)  (I have run out of Creds on github so had to use OneDrive , sorry for inconvenience).
 2. Flash it in recovery.
 3. After that, ensure to flash the dm-verity to prevent the device from going into download mode.
 
