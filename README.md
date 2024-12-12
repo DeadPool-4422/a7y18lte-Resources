@@ -98,6 +98,7 @@ Enhance your device experience with our recommended Generic System Images (GSIs)
 ### Pre-Installation Requirement:
 
 Ensure that you have a stock ROM flashed on your device. If not, download and flash the provided [stock-Degoogled ROM](https://github.com/DeadPool-4422/a7y18lte-Resources/blob/main/stock-Degoogled.zip) from this repository.
+It is also recommended to switch to the kernel available at [Kernel](https://github.com/DeadPool-4422/a7y18lte-Resources#kernel-installation) in case you face issues like camera or fingerprint not working.
 
 ### Entering Recovery Mode:
 
